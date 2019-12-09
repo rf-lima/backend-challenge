@@ -1,0 +1,20 @@
+Sequelize comandos:
+
+
+
+- Criar base de dados:
+
+yarn sequelize db:create
+
+
+- Criar Migration:
+
+yarn sequelize migration:create --name=create-products
+
+
+- Criar Tabelas:
+
+yarn sequelize db:migrate
+
+- Desfazer tudo que foi executado na ultima vez (desfaz a ultima migration) - não faz rollback no ambiente de produção
+yarn sequelize db:migrate:undo
