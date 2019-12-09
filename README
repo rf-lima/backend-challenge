@@ -1,8 +1,6 @@
 Sequelize comandos:
 
-
-
-- Criar base de dados:
+-Criar base de dados:
 
 yarn sequelize db:create
 
